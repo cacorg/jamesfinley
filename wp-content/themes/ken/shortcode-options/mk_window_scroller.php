@@ -1,0 +1,71 @@
+<?php
+vc_map(array(
+    "name"        => __("Window Scroller", "mk_framework"),
+    "base"        => "mk_window_scroller",
+    'icon'        => 'icon-mk-image-slideshow vc_mk_element-icon',
+    "category"    => __('Slideshows', 'mk_framework'),
+    'description' => __('Vertical widnow scroll in a frame.', 'mk_framework'),
+    "params"      => array(
+        array(
+            "type"        => "upload",
+            "heading"     => __("Uplaod Your image", "mk_framework"),
+            "param_name"  => "src",
+            "value"       => "",
+            "description" => __("", "mk_framework"),
+        ),
+        array(
+            "type"        => "range",
+            "heading"     => __("Window Height", "mk_framework"),
+            "param_name"  => "height",
+            "value"       => "300",
+            "min"         => "100",
+            "max"         => "1000",
+            "step"        => "1",
+            "unit"        => 'px',
+            "description" => __("", "mk_framework"),
+        ),
+
+        array(
+            "type"        => "range",
+            "heading"     => __("Animation Speed", "mk_framework"),
+            "param_name"  => "speed",
+            "value"       => "2000",
+            "min"         => "100",
+            "max"         => "10000",
+            "step"        => "1",
+            "unit"        => 'ms',
+            "description" => __("", "mk_framework"),
+        ),
+        array(
+            "type"        => "textfield",
+            "heading"     => __("Link", "mk_framework"),
+            "param_name"  => "link",
+            "value"       => "",
+            "description" => __("", "mk_framework"),
+        ),
+        array(
+            "type"        => "dropdown",
+            "heading"     => __("Target", "mk_framework"),
+            "param_name"  => "target",
+            "width"       => 200,
+            "value"       => $target_arr,
+            "description" => __("", "mk_framework"),
+        ),
+        array(
+            "type"        => "dropdown",
+            "heading"     => __("Viewport Animation", "mk_framework"),
+            "param_name"  => "animation",
+            "value"       => $css_animations,
+            "description" => __("Viewport animation will be triggered when this element is being viewed when you scroll page down. you only need to choose the animation style from this option. please note that this only works in moderns. We have disabled this feature in touch devices to increase browsing speed.", "mk_framework"),
+        ),
+        $add_device_visibility,
+        array(
+            "type"        => "textfield",
+            "heading"     => __("Extra class name", "mk_framework"),
+            "param_name"  => "el_class",
+            "value"       => "",
+            "description" => __("If you wish to style particular content element differently, then use this field to add a class name and then refer to it in your css file.", "mk_framework"),
+        ),
+
+    ),
+));

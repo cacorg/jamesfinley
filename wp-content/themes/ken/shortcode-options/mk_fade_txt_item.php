@@ -1,0 +1,73 @@
+<?php
+vc_map(array(
+    "name"            => __("Fade Text Item", "mk_framework"),
+    "base"            => "mk_fade_txt_item",
+    "as_child"        => array('only' => 'mk_fade_txt_box'),
+    'icon'            => 'icon-mk-content-box vc_mk_element-icon',
+    "content_element" => true,
+    "category"        => __('Slideshows', 'mk_framework'),
+    'params'          => array(
+
+        array(
+            "type"        => "textfield",
+            "heading"     => __("Text", "mk_framework"),
+            "param_name"  => "item_txt",
+            "value"       => "",
+            "description" => __("", "mk_framework"),
+        ),
+        array(
+            "type"        => "range",
+            "heading"     => __("Font Size", "mk_framework"),
+            "param_name"  => "item_text_size",
+            "value"       => "16",
+            "min"         => "10",
+            "max"         => "100",
+            "step"        => "1",
+            "unit"        => 'px',
+            "description" => __("", "mk_framework"),
+        ),
+        array(
+            "type"        => "dropdown",
+            "heading"     => __("Font Weight", "mk_framework"),
+            "param_name"  => "item_font_weight",
+            "value"       => array(
+                __('Default', "mk_framework")   => "inherit",
+                __('Bolder (900)', "mk_framework")    => "900",
+                __('Bolder (800)', "mk_framework")    => "bolder",
+                __('Bold (700)', "mk_framework")      => "bold",
+                __('Semi Bold (600)', "mk_framework") => "600",
+                __('Medium (500)', "mk_framework")    => "500",
+                __('Normal (400)', "mk_framework")    => "normal",
+                __('Light (300)', "mk_framework")     => "300",
+                __('Lighter (200)', "mk_framework")     => "200",
+                __('Lighter (100)', "mk_framework")     => "100",
+            ),
+            "description" => __("", "mk_framework"),
+        ),
+        array(
+            "type"        => "dropdown",
+            "heading"     => __("Text Align", "mk_framework"),
+            "param_name"  => "item_text_align",
+            "value"       => array(
+                __('Left', "mk_framework")   => "left",
+                __('Center', "mk_framework") => "center",
+                __('Right', "mk_framework")  => "right",
+            ),
+            "description" => __("", "mk_framework"),
+        ),
+        array(
+            "type"        => "colorpicker",
+            "heading"     => __("Font Color", "mk_framework"),
+            "param_name"  => "item_color",
+            "value"       => "",
+            "description" => __("", "mk_framework"),
+        ),
+        array(
+            "type"        => "textfield",
+            "heading"     => __("Extra class name", "mk_framework"),
+            "param_name"  => "el_class",
+            "value"       => "",
+            "description" => __("If you wish to style particular content element differently, then use this field to add a class name and then refer to it in Custom CSS Shortcode or Masterkey Custom CSS option.", "mk_framework"),
+        ),
+    ),
+));

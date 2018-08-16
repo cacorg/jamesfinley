@@ -1,0 +1,78 @@
+<?php
+vc_map(array(
+    "base"     => "mk_instagram",
+    "name"     => __("Instagram Feeds", "mk_framework"),
+    "category" => __('Social', 'mk_framework'),
+    "params"   => array(
+        array(
+            "type"        => "textfield",
+            "heading"     => __("Instagram ID", "mk_framework"),
+            "param_name"  => "instagram_id",
+            "value"       => "",
+            "description" => __('Dont know your user id or token? <a target="_blank" href="https://instagram.com/oauth/authorize/?client_id=12087cfb5d6b4a639e77bb8438c8e47c&redirect_uri=https://www.artbees.net/instagram-api/&response_type=token">Click here</a> to get one.', "mk_framework"),
+        ),
+        array(
+            "type"        => "textfield",
+            "heading"     => __("Access Token", "mk_framework"),
+            "param_name"  => "access_token",
+            "value"       => "",
+            "description" => __('Dont know your user id or token? <a target="_blank" href="https://instagram.com/oauth/authorize/?client_id=12087cfb5d6b4a639e77bb8438c8e47c&redirect_uri=https://www.artbees.net/instagram-api/&response_type=token">Click here</a> to get one.', "mk_framework"),
+        ),
+        array(
+            "type"       => "range",
+            "heading"    => __("Number of photos", "mk_framework"),
+            "param_name" => "count",
+            "value"      => "6",
+            "min"        => "1",
+            "max"        => "60",
+            "step"       => "1",
+            "unit"       => 'photos',
+        ),
+        array(
+            "type"        => "dropdown",
+            "heading"     => __("Sort By", "mk_framework"),
+            "param_name"  => "sort_by",
+            "value"       => array(
+                __("Most Recent", "mk_framework")     => "most-recent",
+                __("Least Recent", "mk_framework")    => "least-recent",
+                __("Most Liked", "mk_framework")      => "most-liked",
+                __("Least Liked", "mk_framework")     => "least-liked",
+                __("Most Commented", "mk_framework")  => "most-commented",
+                __("Least Commented", "mk_framework") => "least-commented",
+                __("Random", "mk_framework")          => "random",
+            ),
+            "description" => __("", "mk_framework"),
+        ),
+        array(
+            "type"        => "dropdown",
+            "heading"     => __("Thumbnail Size", "mk_framework"),
+            "param_name"  => "size",
+            "value"       => array(
+                __("Thumbnail (150X150)", "mk_framework")           => "thumbnail",
+                __("Low Resolution (306X306)", "mk_framework")      => "low_resolution",
+                __("Standard Resolution (612X612)", "mk_framework") => "standard_resolution",
+            ),
+            "description" => __("", "mk_framework"),
+        ),
+        array(
+            "type"        => "dropdown",
+            "heading"     => __("How many photos in one row?", "mk_framework"),
+            "param_name"  => "column",
+            "value"       => array(
+                __("1", "mk_framework") => "one",
+                __("2", "mk_framework") => "two",
+                __("3", "mk_framework") => "three",
+                __("4", "mk_framework") => "four",
+                __("5", "mk_framework") => "five",
+            ),
+            "description" => __("", "mk_framework"),
+        ),
+        array(
+            "type"        => "textfield",
+            "heading"     => __("Extra class name", "mk_framework"),
+            "param_name"  => "el_class",
+            "value"       => "",
+            "description" => __("If you wish to style particular content element differently, then use this field to add a class name and then refer to it in your css file.", "mk_framework"),
+        ),
+    ),
+));

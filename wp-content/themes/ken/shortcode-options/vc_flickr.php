@@ -1,0 +1,50 @@
+<?php
+vc_map(array(
+    "base"        => "vc_flickr",
+    "name"        => __("Flickr Feeds", "mk_framework"),
+    'icon'        => 'icon-mk-flickr-feeds vc_mk_element-icon',
+    'description' => __('Show your Flickr Feeds.', 'mk_framework'),
+    "category"    => __('Social', 'mk_framework'),
+    "params"      => array(
+        array(
+            "type"        => "textfield",
+            "heading"     => __("Flickr ID", "mk_framework"),
+            "param_name"  => "flickr_id",
+            "value"       => "95572727@N00",
+            "description" => __('To find your flickID visit <a href="http://idgettr.com/" target="_blank">idGettr</a>. In order to use Flickr Shortcode you should first obtain an API key from <a href="http://www.flickr.com/services/api/misc.api_keys.html">Flickr The App Garden</a> and update the field in Theme settings => Third Party API => Flickr API Key.', "mk_framework"),
+        ),
+        array(
+            "type"       => "range",
+            "heading"    => __("Number of photos", "mk_framework"),
+            "param_name" => "count",
+            "value"      => "6",
+            "min"        => "1",
+            "max"        => "200",
+            "step"       => "1",
+            "unit"       => 'photos',
+        ),
+        array(
+            "type"        => "dropdown",
+            "heading"     => __("How many photos in one row?", "mk_framework"),
+            "param_name"  => "column",
+            "value"       => array(
+                __("1", "mk_framework") => "one",
+                __("2", "mk_framework") => "two",
+                __("3", "mk_framework") => "three",
+                __("4", "mk_framework") => "four",
+                __("5", "mk_framework") => "five",
+                __("6", "mk_framework") => "six",
+                __("7", "mk_framework") => "seven",
+                __("8", "mk_framework") => "eight",
+            ),
+            "description" => __("", "mk_framework"),
+        ),
+        array(
+            "type"        => "textfield",
+            "heading"     => __("Extra class name", "mk_framework"),
+            "param_name"  => "el_class",
+            "value"       => "",
+            "description" => __("If you wish to style particular content element differently, then use this field to add a class name and then refer to it in your css file.", "mk_framework"),
+        ),
+    ),
+));

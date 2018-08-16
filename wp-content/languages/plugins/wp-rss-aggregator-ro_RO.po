@@ -1,0 +1,1409 @@
+# Translation of Plugins - WP RSS Aggregator - Stable (latest release) in Romanian
+# This file is distributed under the same license as the Plugins - WP RSS Aggregator - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-05-17 06:51:03+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2);\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: ro\n"
+"Project-Id-Version: Plugins - WP RSS Aggregator - Stable (latest release)\n"
+
+#. Author of the plugin/theme
+msgid "Jean Galea"
+msgstr "Jean Galea"
+
+#. Description of the plugin/theme
+msgid "Imports and aggregates multiple RSS Feeds using SimplePie"
+msgstr "Importă și strânge la un loc mai multe fluxuri RSS folosind SimplePie"
+
+#. #-#-#-#-#  tmp-wp-rss-aggregator.pot (WP RSS Aggregator 4.7.5)  #-#-#-#-#
+#. Plugin URI of the plugin/theme
+#. #-#-#-#-#  tmp-wp-rss-aggregator.pot (WP RSS Aggregator 4.7.5)  #-#-#-#-#
+#. Author URI of the plugin/theme
+msgid "http://www.wprssaggregator.com"
+msgstr "http://www.wprssaggregator.com"
+
+#. Plugin Name of the plugin/theme
+msgid "WP RSS Aggregator"
+msgstr "WP RSS Aggregator"
+
+#: wp-rss-aggregator.php:426
+msgid "This plugin requires WordPress version %1$s or higher."
+msgstr "Acest modul necesită versiunea WordPress %1$s sau superioară."
+
+#: wp-rss-aggregator.php:283
+msgid "Allow tracking"
+msgstr "Permite urmărirea"
+
+#: wp-rss-aggregator.php:282
+msgid "Do not allow tracking"
+msgstr "Nu permite urmărirea"
+
+#: wp-rss-aggregator.php:275
+msgid "You've just installed WP RSS Aggregator. Please helps us improve it by allowing us to gather anonymous usage stats so we know which configurations, plugins and themes to test with."
+msgstr "Tocmai ai instalat WP RSS Aggregator. Te rog ajută-ne să-l îmbunătățim permițându-ne să colectăm statistici de utilizare anonime ca să știm configurațiile, modulele și temele cu care să-l testăm."
+
+#: wp-rss-aggregator.php:275
+msgid "Help improve WP RSS Aggregator"
+msgstr "Ajută la îmbunătățirea WP RSS Aggregator"
+
+#: includes/update.php:69
+msgid "Follow"
+msgstr "Urmărește"
+
+#: includes/update.php:67
+msgid "No Follow"
+msgstr "Nu urmări "
+
+#: includes/system-info.php:100
+msgid "Your server does not support fsockopen."
+msgstr "Serverul tău nu suportă fsockopen."
+
+#: includes/system-info.php:100
+msgid "Your server supports fsockopen."
+msgstr "Serverul tău suportă fsockopen."
+
+#: includes/system-info.php:71
+msgid "Could not determine database driver version"
+msgstr "N-am putut determina versiunea driverului bazei de date"
+
+#: includes/system-info.php:38
+msgid "Download System Info File"
+msgstr "Descarcă fișierul informații despre sistem"
+
+#: includes/system-info.php:33
+msgid "To copy the system info, click below then press Ctrl + C (PC) or Cmd + C (Mac)."
+msgstr "Pentru a copia informațiile despre sistem, dă clic mai jos, apoi apasă Ctrl + C (PC) sau Cmd + C (Mac)."
+
+#: includes/system-info.php:27
+msgid "System Information"
+msgstr "Informații despre sistem"
+
+#: includes/scripts.php:133
+msgid "Your message has been sent and we'll send you a confirmation e-mail when we receive it."
+msgstr "Mesajul tău a fost trimis și îți vom trimite un email de confirmare când îl primim."
+
+#: includes/scripts.php:132
+msgid "There was an error sending the form. Please use the <a href=\"%s\">contact form on our site.</a>"
+msgstr "A fost o eroare la trimiterea formularului. Te rog folosește <a href=\"%s\">formularul de contact de pe situl nostru.</a>"
+
+#: includes/scripts.php:131
+msgid "Sending..."
+msgstr "Trimit..."
+
+#: includes/scripts.php:124
+msgid "Deactivating..."
+msgstr "Dezactivez..."
+
+#: includes/scripts.php:123
+msgid "Activating..."
+msgstr "Activez..."
+
+#: includes/scripts.php:95
+msgid "Move to Trash"
+msgstr "Mută la gunoi"
+
+#: includes/scripts.php:89
+msgid "Pause"
+msgstr "Pauză"
+
+#: includes/scripts.php:75
+msgid "Remove selected from Blacklist"
+msgstr "Înlătură cele selectate din lista neagră"
+
+#: includes/scripts.php:74
+msgid "The feed items listed here will be disregarded when importing new items from your feed sources."
+msgstr "Elementele de flux listate aici vor fi ignorate când se importă elemente noi din sursele tale de flux."
+
+#: includes/scripts.php:73
+msgid "Cancel"
+msgstr "Anulează"
+
+#: includes/scripts.php:72
+msgid "OK"
+msgstr "OK"
+
+#: includes/scripts.php:71
+msgid "Bulk Add"
+msgstr "Adăugare în masă"
+
+#: includes/scripts.php:69
+msgid "Items are importing"
+msgstr "Elementele sunt importate"
+
+#: includes/scripts.php:68
+msgid "Failed to import"
+msgstr "Importul a eșuat"
+
+#: includes/scripts.php:47 includes/scripts.php:70
+msgid "Please wait ..."
+msgstr "Te rog așteaptă..."
+
+#: includes/opml-importer.php:258
+msgid "Import Feeds from an OPML file into WP RSS Aggregator"
+msgstr "Importă fluxuri dintr-un fișier OPML în WP RSS Aggregator"
+
+#: includes/opml-importer.php:257
+msgid "WP RSS OPML"
+msgstr "WP RSS OPML"
+
+#: includes/opml-importer.php:194 includes/opml-importer.php:225
+msgid "ID"
+msgstr "ID"
+
+#: includes/opml-importer.php:187
+msgid "Feeds were imported successfully!"
+msgstr "Fluxurile au fost importate cu succes!"
+
+#: includes/opml-importer.php:115
+msgid "It is likely that this was caused by a permissions problem."
+msgstr "Este probabil ca acest lucru să fi fost cauzat de o problemă de permisiuni."
+
+#: includes/opml-importer.php:114
+msgid "The uploaded file could not be found at "
+msgstr "Fișierul încărcat nu a putut fi găsit la"
+
+#: includes/opml-importer.php:113
+msgid "Sorry, it seems your uploaded file has been misplaced!"
+msgstr "Regret, se pare că fișierul încărcat a fost plasat greșit!"
+
+#: includes/opml-importer.php:108
+msgid "Sorry, an error has been encountered."
+msgstr "Regret, a fost întâlnită o eroare."
+
+#: includes/opml-importer.php:77
+msgid "We will take care of the rest."
+msgstr "Vom avea grijă de restul."
+
+#: includes/opml-importer.php:76
+msgid "Click the button below, choose your file, and click 'Upload'."
+msgstr "Dă clic pe butonul de mai jos, alege-ți fișierul și dă clic pe „Încarcă”."
+
+#: includes/opml-importer.php:75
+msgid "Howdy! Import your feeds here from an OPML (.xml) export file."
+msgstr "Bună! Importă-ți fluxurile aici dintr-un fișier de export OMPL (.xml)."
+
+#: includes/opml-importer.php:65
+msgid "Import OPML"
+msgstr "Importă OPML"
+
+#. translators: If your word count is based on single characters (East Asian
+#. characters), 	   enter 'characters'. Otherwise, enter 'words'. Do not
+#. translate into your own language.
+#: includes/misc-functions.php:317
+msgctxt "word count: words or characters?"
+msgid "words"
+msgstr "words"
+
+#: includes/misc-functions.php:312
+msgid "&hellip;"
+msgstr "&hellip;"
+
+#: includes/licensing.php:622
+msgid "Failed to get license information. This is a temporary problem. Check your internet connection and try again later."
+msgstr "Obținerea informațiilor despre licență a eșuat. Aceasta este o problemă temporară. Verifică-ți conexiunea la internet și reîncearcă mai târziu."
+
+#: includes/licensing.php:617
+msgid "Registered to"
+msgstr "Înregistrat la"
+
+#: includes/licensing.php:614
+msgid "Expires on"
+msgstr "Expiră pe"
+
+#: includes/licensing.php:611
+msgid "Activations"
+msgstr "Activări"
+
+#: includes/licensing.php:608
+msgid "Renew your license to continue receiving updates and support."
+msgstr "Reînnoiește-ți licența pentru a continua să primești actualizări și suport."
+
+#: includes/licensing.php:603
+msgid "No activations left. Click here to manage the sites you've activated licenses on."
+msgstr "Nicio activare rămasă. Dă clic aici pentru a-ți administra siturile pe care ai licențe activate."
+
+#: includes/licensing.php:572
+msgid "Status"
+msgstr "Stare"
+
+#: includes/licensing.php:547
+msgid "Enter your license key"
+msgstr "Introdu cheia ta de licență"
+
+#: includes/licensing.php:513
+msgid "Activate License"
+msgstr "Activează licența"
+
+#: includes/licensing.php:504
+msgid "License Key"
+msgstr "Cheie licență"
+
+#: includes/licensing.php:497
+msgid "License"
+msgstr "Licență"
+
+#: includes/licensing.php:401
+msgid "No nonce"
+msgstr "Fără nunic"
+
+#: includes/licensing.php:398
+msgid "Bad nonce"
+msgstr "Nunic incorect"
+
+#: includes/licensing.php:389
+msgid "No license"
+msgstr "Fără licență"
+
+#: includes/licensing.php:382
+msgid "No event specified"
+msgstr "Niciun eveniment specificat"
+
+#: includes/licensing.php:379 includes/licensing.php:421
+msgid "Invalid event specified"
+msgstr "Eveniment specificat invalid"
+
+#: includes/licensing.php:371 includes/licensing.php:457
+msgid "No addon ID"
+msgstr "Niciun ID supliment"
+
+#: includes/licensing.php:336
+msgid "<a href=\"%s\">Save 30%% on your license renewal</a> for the WP RSS Aggregator <b>%s</b> add-on and continue receiving updates and support."
+msgstr "<a href=\"%s\">Economisești 30%% la reînnoirea licenței</a> pentru suplimentul WP RSS Aggregator <b>%s</b> și continui să primești actualizări și suport."
+
+#: includes/licensing.php:310
+msgid "Remember to <a href=\"%s\">enter your plugin license code</a> for the WP RSS Aggregator <b>%s</b> add-on to benefit from updates and support."
+msgstr "Nu uita să <a href=\"%s\">introduci codul licenței modulului</a> pentru suplimentul WP RSS Aggregator <b>%s</b> pentru a beneficia de actualizări și suport."
+
+#: includes/libraries/EDD_licensing/EDD_SL_Plugin_Updater.php:324
+msgid "Error"
+msgstr "Eroare"
+
+#: includes/libraries/EDD_licensing/EDD_SL_Plugin_Updater.php:324
+msgid "You do not have permission to install plugin updates"
+msgstr "Nu ai permisiunea să instalezi actualizări de module"
+
+#: includes/libraries/EDD_licensing/EDD_SL_Plugin_Updater.php:184
+msgid "There is a new version of %1$s available. <a target=\"_blank\" class=\"thickbox\" href=\"%2$s\">View version %3$s details</a> or <a href=\"%4$s\">update now</a>."
+msgstr "Este disponibilă o nouă versiune a %1$s. <a target=\"_blank\" class=\"thickbox\" href=\"%2$s\">Vezi detaliile versiunii %3$s</a> sau <a href=\"%4$s\">actualizează acum</a>."
+
+#: includes/libraries/EDD_licensing/EDD_SL_Plugin_Updater.php:177
+msgid "There is a new version of %1$s available. <a target=\"_blank\" class=\"thickbox\" href=\"%2$s\">View version %3$s details</a>."
+msgstr "Este disponibilă o nouă versiune a %1$s. <a target=\"_blank\" class=\"thickbox\" href=\"%2$s\">Vezi detaliile versiunii %3$s</a>."
+
+#: includes/image-caching.php:497
+msgid "The file library cannot be read from %1$s"
+msgstr "Biblioteca de fișiere nu poate fi citită din %1$s"
+
+#: includes/image-caching.php:491
+msgid "Could not create directory: \"%1$s\". Filename: \"%2$s\""
+msgstr "N-am putut crea directorul: „%1$s”. Nume fișier: „%2$s”"
+
+#: includes/image-caching.php:475
+msgid "Invalid URL provided: \"%1$s\""
+msgstr "URL furnizat invalid: „%1$s”"
+
+#: includes/feed-states.php:124
+msgid "The feed sources have been paused!!"
+msgstr "Sursele de flux au fost întrerupte!"
+
+#: includes/feed-states.php:110
+msgid "The feed sources have been activated!"
+msgstr "Sursele de flux au fost activate!"
+
+#: includes/feed-importing.php:690
+msgid "The PHP script timed out while importing an item from this feed, after %d seconds."
+msgstr "Scriptul PHP a expirat în timpul importului unui element din acest flux, după %d secunde."
+
+#: includes/feed-importing.php:290
+msgid "Failed to fetch the RSS feed. Error: %s"
+msgstr "Aducerea fluxului RSS a eșuat. Eroare: %s"
+
+#: includes/feed-display.php:410
+msgid "Newer posts"
+msgstr "Articole mai noi"
+
+#: includes/feed-display.php:409
+msgid "Older posts"
+msgstr "Articole mai vechi"
+
+#: includes/feed-display.php:359
+msgid "No feed items found."
+msgstr "Niciun element de flux găsit."
+
+#: includes/feed-blacklist.php:321 includes/opml-importer.php:195
+#: includes/opml-importer.php:226
+msgid "Title"
+msgstr "Titlu"
+
+#: includes/feed-blacklist.php:261
+msgid "Remove from blacklist"
+msgstr "Înlătură din lista neagră"
+
+#: includes/feed-blacklist.php:248
+msgid "The item will be deleted permanently, and its permalink will be recorded in the blacklist"
+msgstr "Acest element va fi șters definitiv și legătura sa permanentă va fi înregistrată în lista neagră."
+
+#: includes/feed-blacklist.php:242
+msgid "Delete Permanently & Blacklist"
+msgstr "Șterge definitiv și listă neagră"
+
+#: includes/feed-blacklist.php:200
+msgid "You do not have any items blacklisted yet!"
+msgstr "Nu ai încă niciun element în lista neagră!"
+
+#: includes/feed-blacklist.php:199
+msgid "Search Blacklist"
+msgstr "Caută în lista neagră"
+
+#: includes/feed-blacklist.php:196 includes/feed-blacklist.php:197
+#: includes/feed-blacklist.php:198
+msgid "Blacklist"
+msgstr "Listă neagră"
+
+#: includes/feed-blacklist.php:134
+msgid "The item you are trying to blacklist is not valid!"
+msgstr "Elementul pe care încerci să-l adaugi în lista neagră nu este valid!"
+
+#: includes/feed-blacklist.php:129
+msgid "The item you are trying to blacklist does not exist"
+msgstr "Elementul pe care încerci să-l adaugi în lista neagră nu există"
+
+#: includes/feed-access.php:119
+msgid "Certificate Path"
+msgstr "Cale certificat"
+
+#: includes/custom-post-types.php:78
+msgid "No Feed Items Found In Trash"
+msgstr "Niciun element de flux găsit la gunoi"
+
+#: includes/custom-post-types.php:77
+msgid "No Feed Items Found"
+msgstr "Niciun element de flux găsit"
+
+#: includes/custom-post-types.php:76
+msgid "Search Feed Items"
+msgstr "Caută elemente de flux"
+
+#: includes/custom-post-types.php:75
+msgid "View Feed Items"
+msgstr "Vezi elemente de flux"
+
+#: includes/custom-post-types.php:73
+msgid "Feed Item"
+msgstr "Element de flux"
+
+#: includes/custom-post-types.php:72 includes/custom-post-types.php:74
+msgid "Feed Items"
+msgstr "Elemente de flux"
+
+#: includes/custom-post-types.php:32
+msgid "RSS Aggregator"
+msgstr "RSS Aggregator"
+
+#: includes/custom-post-types.php:31
+msgid "No Feed Sources Found In Trash"
+msgstr "Nicio sursă de flux găsită la gunoi"
+
+#: includes/custom-post-types.php:30
+msgid "No Feed Sources Found"
+msgstr "Nicio sursă de flux găsită"
+
+#: includes/custom-post-types.php:29
+msgid "Search Feeds"
+msgstr "Caută fluxuri"
+
+#: includes/custom-post-types.php:28
+msgid "View Feed Source"
+msgstr "Vezi sursa de flux"
+
+#: includes/custom-post-types.php:27
+msgid "New Feed Source"
+msgstr "Sursă de flux nouă"
+
+#: includes/custom-post-types.php:26
+msgid "Edit Feed Source"
+msgstr "Editează sursa de flux"
+
+#: includes/custom-post-types.php:25
+msgid "Add New Feed Source"
+msgstr "Adaugă sursă de flux nouă"
+
+#: includes/custom-post-types.php:23
+msgid "Add New"
+msgstr "Adaugă nouă"
+
+#: includes/custom-post-types.php:22
+msgid "Feed Source"
+msgstr "Sursă de flux"
+
+#: includes/cron-jobs.php:80
+msgid "Once every two hours"
+msgstr "O dată la fiecare două ore"
+
+#: includes/cron-jobs.php:76
+msgid "Once every thirty minutes"
+msgstr "O dată la fiecare 30 de minute"
+
+#: includes/cron-jobs.php:72
+msgid "Once every fifteen minutes"
+msgstr "O dată la fiecare 15 minute"
+
+#: includes/cron-jobs.php:68
+msgid "Once every ten minutes"
+msgstr "O dată la fiecare zece minute"
+
+#: includes/cron-jobs.php:64
+msgid "Once every five minutes"
+msgstr "O dată la fiecare cinci minute"
+
+#: includes/cpt-feeds.php:82
+msgid "%1$s &raquo; %2$s Feed"
+msgstr "Flux %1$s &raquo; %2$s"
+
+#: includes/admin.php:94
+msgid "Name this feed (e.g. WP Mayor)"
+msgstr "Denumește acest flux (de exemplu: WP Mayor)"
+
+#: includes/admin.php:41 includes/admin.php:111
+msgid "Settings"
+msgstr "Setări"
+
+#: includes/admin.php:40
+msgid "Import & Export"
+msgstr "Import și export"
+
+#: includes/admin.php:40
+msgid "Export & Import Settings"
+msgstr "Setări export și import"
+
+#: includes/admin-welcome.php:164
+msgid "Go to WP RSS Aggregator settings"
+msgstr "Du-te la setări WP RSS Aggregator"
+
+#: includes/admin-welcome.php:154
+msgid "Import and store feeds that contain specific keywords in either the title or their content. Control what gets imported to your blog."
+msgstr "Importă și stochează fluxurile care conțin anumite cuvinte cheie fie în titlu ori fie în conținut. Controlează ce se importă în blogul tău."
+
+#: includes/admin-welcome.php:144
+msgid "Organize your feeds into custom categories. Filter feed items by category and make custom WordPress feeds for specific categories."
+msgstr "Organizează fluxurile în categorii personalizate. Filtrează elementele de flux după categorie și creează fluxuri WordPress personalizate pentru anumite categorii."
+
+#: includes/admin-welcome.php:134
+msgid "Fetch RSS feed excerpts to your blog and add thumbnails! Perfect for adding some life and color to your feeds."
+msgstr "Aduce rezumatele fluxurilor RSS în blogul tău și adaugă miniaturi! Perfect pentru a adăuga un pic de viață și culoare fluxurilor tale."
+
+#: includes/admin-welcome.php:123
+msgid "Need functionality not already available in core or the add-ons? You can <a href=\"%1$s\">suggest new features</a>!"
+msgstr "Ai nevoie de funcționalități care nu sunt încă în nucleu sau în suplimente? Poți <a href=\"%1$s\">sugera funcționalități noi</a>!"
+
+#: includes/admin-welcome.php:117
+msgid "Changelog for v%1$s"
+msgstr "Istoric modificări pentru v%1$s"
+
+#: includes/admin-welcome.php:111
+msgid "More information about add-ons can be found on our website <a href=\"%1$s\">%2$s</a>"
+msgstr "Mai multe informații despre suplimente pot fi găsite pe situl nostru web <a href=\"%1$s\">%2$s</a>"
+
+#: includes/admin-welcome.php:104
+msgid "Excerpts &amp; Thumbnails"
+msgstr "Rezumate și miniaturi"
+
+#: includes/admin-welcome.php:100
+msgid "Check out our add-ons:"
+msgstr "Vezi suplimentele noastre"
+
+#: includes/admin-welcome.php:91
+msgid "The Blacklist"
+msgstr "Lista neagră"
+
+#: includes/admin-welcome.php:84
+msgid "Blacklist Trashed Items"
+msgstr "Elemente din lista neagră aruncate la gunoi"
+
+#: includes/admin-welcome.php:78
+msgid "Trash undesired items"
+msgstr "Aruncă la gunoi elementele nedorite"
+
+#: includes/admin-welcome.php:74
+msgid "Feed Item Blacklist"
+msgstr "Listă neagră a elementelor de flux"
+
+#: includes/admin-welcome.php:69
+msgid ""
+"The new bulk adding option saves you time by allowing you to enter your feed names and URLs all at once.\n"
+"\t\t\t\t\t\t\t\t\t\tSimply type in or paste your feed sources, and with the press of a button, your feed sources will instantly be created!\n"
+"\t\t\t\t\t\t\t\t\t\tTry it now from the <a href=\"%1$s\">Import &amp; Export</a> page."
+msgstr ""
+"Noua opțiune de adăugare în masă îți economisește timp permițându-ți să adaugi toate numele și URL-urile fluxurilor deodată.\n"
+"\t\t\t\t\t\t\t\t\t\tTastează sau plasează sursele fluxurilor tale și prin apăsarea unui buton, sursele de fluxuri vor fi create instantaneu.\n"
+"\t\t\t\t\t\t\t\t\t\tO încerci acum din pagina <a href=\"%1$s\">Import și export</a>."
+
+#: includes/admin-welcome.php:66
+msgid "Bulk Adding Feed Sources"
+msgstr "Adăugarea în masă a surselor de flux"
+
+#: includes/admin-welcome.php:42
+msgid "What's New?"
+msgstr "Ce este nou?"
+
+#: includes/admin-welcome.php:34
+msgid "Thank you for upgrading to the latest version!"
+msgstr "Îți mulțumim pentru actualizarea la ultima versiune!"
+
+#: includes/admin-welcome.php:32
+msgid "Welcome to WP RSS Aggregator %1$s!"
+msgstr "Bun venit la WP RSS Aggregator %1$s!"
+
+#: includes/admin-statistics.php:149
+msgid "<b>WP RSS Aggregator:</b> Data report sent!"
+msgstr "<b>WP RSS Aggregator:</b> Raport de date trimis!"
+
+#: includes/admin-options.php:943
+msgid "now"
+msgstr "acum"
+
+#: includes/admin-options.php:938
+msgid "%s second"
+msgid_plural "%s seconds"
+msgstr[0] "%s secundă"
+msgstr[1] "%s secunde"
+msgstr[2] "%s de secunde"
+
+#: includes/admin-options.php:937
+msgid "%s minute"
+msgid_plural "%s minutes"
+msgstr[0] "%s minut"
+msgstr[1] "%s minute"
+msgstr[2] "%s de minute"
+
+#: includes/admin-options.php:936
+msgid "%s hour"
+msgid_plural "%s hours"
+msgstr[0] "%s oră"
+msgstr[1] "%s ore"
+msgstr[2] "%s de ore"
+
+#: includes/admin-options.php:935
+msgid "%s day"
+msgid_plural "%s days"
+msgstr[0] "%s zi"
+msgstr[1] "%s zile"
+msgstr[2] "%s de zile"
+
+#: includes/admin-options.php:934
+msgid "%s week"
+msgid_plural "%s weeks"
+msgstr[0] "%s săptămână"
+msgstr[1] "%s săptămâni"
+msgstr[2] "%s de săptămâni"
+
+#: includes/admin-options.php:933
+msgid "%s month"
+msgid_plural "%s months"
+msgstr[0] "%s lună"
+msgstr[1] "%s luni"
+msgstr[2] "%s de luni"
+
+#: includes/admin-options.php:932
+msgid "%s year"
+msgid_plural "%s years"
+msgstr[0] "%s an"
+msgstr[1] "%s ani"
+msgstr[2] "%s de ani"
+
+#: includes/admin-options.php:888
+msgid "Please help us improve WP RSS Aggregator by allowing us to gather anonymous usage statistics. No sensitive data is collected."
+msgstr "Te rog ajută-ne să îmbunătățim WP RSS Aggregator permițându-ne să colectăm statistici de utilizare anonime. Nu sunt colectate date sensibile."
+
+#: includes/admin-options.php:872
+msgid "Use the above actions only when absolutely necessary, or when instructed to by support staff."
+msgstr "Folosește acțiunile de mai sus doar când este absolut necesar sau când primești instrucțiuni din partea echipei de suport."
+
+#: includes/admin-options.php:868
+msgid "Does both of the above"
+msgstr "Face ambele de mai sus"
+
+#: includes/admin-options.php:867
+msgid "Deactivates WP RSS Aggregator"
+msgstr "Dezactivează WP RSS Aggregator"
+
+#: includes/admin-options.php:866
+msgid "Resets your WP RSS Aggregator settings"
+msgstr "Resetează setările tale WP RSS Aggregator"
+
+#: includes/admin-options.php:863
+msgid ""
+"Leave this empty to disable the secure reset function.<br/>\n"
+"            You use this code by adding any of the following to any URL on your site."
+msgstr ""
+"Lasă asta necompletat pentru a dezactiva funcția de resetare securizată.<br/>\n"
+"            Folosești acest cod adăugând oricare dintre următoarele elemente la orice URL de pe situl tău."
+
+#: includes/admin-options.php:857
+msgid "Enter the code to use to securely reset the plugin and deactivate it. Be sure to save this code somewhere safe."
+msgstr "Introdu codul de utilizat pentru resetarea în siguranță a modulului și dezactivarea lui. Asigură-te că salvezi acest cod într-un loc sigur."
+
+#: includes/admin-options.php:852
+msgid "Generate Random Code"
+msgstr "Generează cod aleatoriu"
+
+#: includes/admin-options.php:740
+msgid "No Limit"
+msgstr "Fără limită"
+
+#: includes/admin-options.php:678
+msgid "Page numbers with \"Next\" and \"Previous\" page links"
+msgstr "Numere de pagină cu legăturile „Următoare” și „Anterioară”"
+
+#: includes/admin-options.php:677
+msgid "\"Older posts\" and \"Newer posts\" links"
+msgstr "Legături „Articole mai vechi” și „Articole mai noi” "
+
+#: includes/admin-options.php:595 includes/admin-options.php:706
+msgid "No limit"
+msgstr "Nicio limită"
+
+#: includes/admin-options.php:567
+msgid "PHP Date Format Reference"
+msgstr "Referință format de dată PHP"
+
+#: includes/admin-options.php:528 includes/update.php:200
+msgid "New window"
+msgstr "Fereastră nouă"
+
+#: includes/admin-options.php:527
+msgid "Lightbox"
+msgstr "Lightbox"
+
+#: includes/admin-options.php:512
+msgid "This will not affect already imported feed items."
+msgstr "Acest lucru nu va afecta elementele de flux deja importate."
+
+#: includes/admin-options.php:498
+msgid "Embedded video player link"
+msgstr "Legătură player video înglobat"
+
+#: includes/admin-options.php:497
+msgid "Original page link"
+msgstr "Legătură pagină originală"
+
+#: includes/admin-options.php:470
+msgid "Participate in helping us make the plugin better."
+msgstr "Participă și ajută-ne să facem modulul mai bun."
+
+#: includes/admin-options.php:461
+msgid "Set your security reset code, in case of any errors."
+msgstr "Setează codul tău de resetare securizată, în cazul unor erori."
+
+#: includes/admin-options.php:452
+msgid "If you would like to disable all styles used in this plugin, tick the checkbox."
+msgstr "Dacă vrei să dezactivezi toate stilurile folosite în acest modul, bifează caseta."
+
+#: includes/admin-options.php:443
+msgid "Options that control how the feed item's date is displayed."
+msgstr "Opțiuni care controlează cum este afișată data elementului de flux."
+
+#: includes/admin-options.php:434
+msgid "Options that control how the feed item's source is displayed."
+msgstr "Opțiuni care controlează cum este afișată sursa elementului de flux."
+
+#: includes/admin-options.php:424
+msgid "In this section you can find some general options that control how the feed items are displayed."
+msgstr "În această secțiune poți găsi câteva opțiuni generale care controlează cum sunt afișate elementele de flux."
+
+#: includes/admin-options.php:415
+msgid "These are the general settings for WP RSS Aggregator."
+msgstr "Acestea sunt setările generale pentru WP RSS Aggregator."
+
+#: includes/admin-options.php:401
+msgid "Save Settings"
+msgstr "Salvează setările"
+
+#: includes/admin-options.php:361
+msgid "Licenses"
+msgstr "Licențe"
+
+#: includes/admin-options.php:357
+msgid "General"
+msgstr "General"
+
+#: includes/admin-options.php:347 includes/admin.php:41
+msgid "WP RSS Aggregator Settings"
+msgstr "Setări WP RSS Aggregator"
+
+#: includes/admin-options.php:185
+msgid "Disable Styles"
+msgstr "Dezactivează stilurile"
+
+#: includes/admin-options.php:178
+msgid "Time ago format"
+msgstr "Format pentru timp în urmă"
+
+#: includes/admin-options.php:174
+msgid "Date format"
+msgstr "Format dată"
+
+#: includes/admin-options.php:170
+msgid "Text preceding date"
+msgstr "Dată înaintea textului"
+
+#: includes/admin-options.php:166
+msgid "Show date"
+msgstr "Arată data"
+
+#: includes/admin-options.php:158
+msgid "Link source"
+msgstr "Sursă legătură"
+
+#: includes/admin-options.php:154
+msgid "Text preceding source"
+msgstr "Sursă înaintea textului"
+
+#: includes/admin-options.php:150
+msgid "Show source"
+msgstr "Arată sursă"
+
+#: includes/admin-options.php:142
+msgid "Set links as nofollow"
+msgstr "Setează legăturile ca nofollow"
+
+#: includes/admin-options.php:138
+msgid "Open links behaviour"
+msgstr "Deschide comportament legături"
+
+#: includes/admin-options.php:134
+msgid "Feed display limit"
+msgstr "Limită de afișare flux"
+
+#: includes/admin-options.php:130
+msgid "Pagination type"
+msgstr "Tip de paginație"
+
+#: includes/admin-options.php:126
+msgid "For video feed items use"
+msgstr "Pentru folosirea elementelor de flux video"
+
+#: includes/admin-options.php:122
+msgid "Show authors"
+msgstr "Arată autori"
+
+#: includes/admin-options.php:114
+msgid "Title maximum length"
+msgstr "Lungime maximă titlu"
+
+#: includes/admin-options.php:110
+msgid "Link title"
+msgstr "Titlu legătură"
+
+#: includes/admin-options.php:98
+msgid "Custom feed limit"
+msgstr "Limită flux personalizat"
+
+#: includes/admin-options.php:94
+msgid "Custom feed Title"
+msgstr "Titlu flux personalizat"
+
+#: includes/admin-options.php:90
+msgid "Custom feed URL"
+msgstr "URL flux personalizat"
+
+#: includes/admin-options.php:82
+msgid "Feed processing interval"
+msgstr "Interval de procesare flux"
+
+#: includes/admin-options.php:78
+msgid "Limit feed items per feed"
+msgstr "Limitează elementele de flux per flux"
+
+#: includes/admin-options.php:74
+msgid "Limit feed items stored"
+msgstr "Limitează elementele de flux stocate"
+
+#: includes/admin-options.php:70
+msgid "Limit feed items by age"
+msgstr "Limitează elementele de flux după vechime"
+
+#: includes/admin-options.php:60
+msgid "Styles"
+msgstr "Stiluri"
+
+#: includes/admin-options.php:59
+msgid "Date display settings"
+msgstr "Setări de afișare dată"
+
+#: includes/admin-options.php:58
+msgid "Source display settings"
+msgstr "Setări de afișare sursă"
+
+#: includes/admin-options.php:57
+msgid "General display settings"
+msgstr "Setări generale de afișare"
+
+#: includes/admin-options.php:56
+msgid "General plugin settings"
+msgstr "Setări generale modul"
+
+#: includes/admin-metaboxes.php:663
+msgid "Like WP Mayor on Facebook."
+msgstr "Apreciază WP Mayor pe Facebook."
+
+#: includes/admin-metaboxes.php:662
+msgid "Follow WP Mayor on Twitter."
+msgstr "Urmărește WP Mayor pe Twitter."
+
+#: includes/admin-metaboxes.php:641
+msgid "Check out the Premium Extensions:"
+msgstr "Verifică extensiile premium:"
+
+#: includes/admin-metaboxes.php:637
+msgid "Donate a token of your appreciation"
+msgstr "Donează un simbol al aprecierii tale"
+
+#: includes/admin-metaboxes.php:636
+msgid "Give it a 5 star rating on WordPress.org"
+msgstr "Dă-i o evaluare de 5 stele pe WordPress.org"
+
+#: includes/admin-metaboxes.php:623
+msgid "Suggest a new feature"
+msgstr "Sugerează o funcționalitate nouă"
+
+#: includes/admin-metaboxes.php:620
+msgid "Check out the support forum"
+msgstr "Vezi forumul pentru suport"
+
+#: includes/admin-metaboxes.php:618
+msgid "Need help?"
+msgstr "Ai nevoie de ajutor?"
+
+#: includes/admin-metaboxes.php:493
+msgid "Active"
+msgstr "Activ"
+
+#: includes/admin-metaboxes.php:457
+msgid "Force the feed"
+msgstr "Forțează fluxul"
+
+#: includes/admin-metaboxes.php:432
+msgid "No feed URL defined yet"
+msgstr "Niciun URL de flux definit până acum"
+
+#: includes/admin-metaboxes.php:427
+msgid "Not sure where to find the RSS feed on a website? <a target=\"_blank\" href=\"%1$s\">Click here</a> for a visual guide. "
+msgstr "Nu știi sigur unde să găsești fluxul RSS pe un sit web? <a target=\"_blank\" href=\"%1$s\">Dă clic aici</a> pentru un ghid vizual."
+
+#: includes/admin-metaboxes.php:423
+msgid "<strong>Invalid feed URL</strong> - Double check the feed source URL setting above."
+msgstr "<strong>URL de flux invalid</strong> - Verifică din nou setarea URL-ului sursei de flux de mai sus."
+
+#: includes/admin-metaboxes.php:402
+msgid "No Date"
+msgstr "Nicio dată"
+
+#: includes/admin-metaboxes.php:400 includes/scripts.php:103
+msgid "ago"
+msgstr "acum"
+
+#: includes/admin-metaboxes.php:393
+msgid "Latest %1$s feed items out of %2$s available from %3$s"
+msgstr "Ultimele %1$s elemente de flux din %2$s disponibile din %3$s"
+
+#: includes/admin-metaboxes.php:223 includes/admin-metaboxes.php:498
+#: includes/admin-options.php:826 includes/admin-options.php:928
+msgid "Default"
+msgstr "Implicit"
+
+#: includes/admin-metaboxes.php:111 includes/admin-options.php:86
+msgid "Unique titles only"
+msgstr "Numai titluri unice"
+
+#: includes/admin-metaboxes.php:105
+msgid "Link to enclosure"
+msgstr "Legătură către anexă"
+
+#: includes/admin-metaboxes.php:99
+msgid "Limit"
+msgstr "Limită"
+
+#: includes/admin-metaboxes.php:91 includes/opml-importer.php:196
+#: includes/opml-importer.php:227
+msgid "URL"
+msgstr "URL"
+
+#: includes/admin-metaboxes.php:58
+msgid "Feed Source Details"
+msgstr "Detalii sursă de flux"
+
+#: includes/admin-metaboxes.php:48
+msgid "Like This Plugin?"
+msgstr "Îți place acest modul?"
+
+#: includes/admin-metaboxes.php:38
+msgid "Feed Processing"
+msgstr "Procesare flux"
+
+#: includes/admin-metaboxes.php:29
+msgid "Feed Preview"
+msgstr "Previzualizare flux"
+
+#: includes/admin-metaboxes.php:20
+msgid "Save Feed Source"
+msgstr "Salvează sursa de flux"
+
+#: includes/admin-import-export.php:237
+msgid "On the <a href=\"%1$simport.php\">Import</a> page, choose the previously created file and click the <strong>Upload file and import</strong> button."
+msgstr "În pagina <a href=\"%1$simport.php\">Importă</a>, alege fișierul creat anterior și dă clic pe butonul <strong>Încarcă fișier și importă</strong>."
+
+#: includes/admin-import-export.php:236
+msgid "On the <a href=\"%1$sexport.php\">Export</a> page, check the <strong>Feed Sources</strong> radio button and click the <strong>Download Export File</strong> button. WordPress will then create an XML file containing all the feed sources."
+msgstr "În pagina <a href=\"%1$sexport.php\">Exportă</a>, bifează butonul radio <strong>Surse flux</strong> și dă clic pe butonul <strong>Descarcă fișier de export</strong>. WordPress va crea apoi un fișier XML care conține toate sursele de flux."
+
+#: includes/admin-import-export.php:235
+msgid "To import/export your feed sources, please use the standard WordPress <a href=\"%1$simport.php\">Import</a> and <a href=\"%1$sexport.php\">Export</a> functionality."
+msgstr "Pentru a importa/exporta sursele tale de flux, te rog folosește funcționalitățile WordPress standard de <a href=\"%1$simport.php\">Import</a> și <a href=\"%1$sexport.php\">Export</a>."
+
+#: includes/admin-import-export.php:234
+msgid "Importing/Exporting Feed Sources"
+msgstr "Importul/exportul surselor de flux"
+
+#: includes/admin-import-export.php:224
+msgid "Press the <strong>Import Settings</strong> button, and WordPress will do the rest for you."
+msgstr "Apasă pe butonul de <strong>Importă setări</strong> și WordPress va face restul pentru tine."
+
+#: includes/admin-import-export.php:223
+msgid "Click the <strong>Choose file</strong> button and choose a backup file."
+msgstr "Dă clic pe butonul <strong>Alege fișier</strong> și alege un fișier al copiei de siguranță."
+
+#: includes/admin-import-export.php:222 includes/admin-import-export.php:230
+msgid "Import Settings"
+msgstr "Importă setări"
+
+#: includes/admin-import-export.php:213
+msgid "After exporting, you can either use the backup file to restore your settings to this site or to another WordPress site."
+msgstr "După export, poți folosi fie fișierul copiei de siguranță pentru a-ți restaura setările pe acest sit ori fie un alt sit WordPress."
+
+#: includes/admin-import-export.php:212
+msgid "Click the <strong>Export Settings</strong> button to generate a file containing all the settings used by WP RSS Aggregator"
+msgstr "Dă clic pe butonul <strong>Exportă setări</strong> pentru a genera un fișier care conține toate setările folosite de WP RSS Aggregator"
+
+#: includes/admin-import-export.php:211 includes/admin-import-export.php:218
+msgid "Export Settings"
+msgstr "Exportă setările"
+
+#: includes/admin-import-export.php:209
+msgid "Import & Export Settings"
+msgstr "Setări import și export"
+
+#: includes/admin-import-export.php:204
+msgid "Bulk Import"
+msgstr "Import în masă"
+
+#: includes/admin-import-export.php:198
+msgid "Feed Name, http://www.myfeed.com"
+msgstr "Nume flux, http://www.myfeed.com"
+
+#: includes/admin-import-export.php:197
+msgid "Separate the name and the URL using a comma on each line:"
+msgstr "Separă numele și URL-ul folosind o virgulă pe fiecare linie:"
+
+#: includes/admin-import-export.php:196
+msgid "Import multiple feed sources at once, by entering the name and URLs of your feeds below."
+msgstr "Importă mai multe surse de flux deodată, prin introducerea numelui și a URL-urilor fluxurilor mai jos."
+
+#: includes/admin-import-export.php:195
+msgid "Bulk Feed Import"
+msgstr "Import de fluxuri în masă"
+
+#: includes/admin-import-export.php:141
+msgid "Invalid file or file size too big."
+msgstr "Fișier invalid sau dimensiune fișier prea mare."
+
+#: includes/admin-import-export.php:130
+msgid "All options are restored successfully."
+msgstr "Toate opțiunile sunt restaurate cu succes."
+
+#: includes/admin-import-export.php:119
+msgid "All options are exported successfully."
+msgstr "Toate opțiunile sunt exportate cu succes."
+
+#: includes/admin-import-export.php:63
+msgid "Successfully imported <code>%1$s</code> feed sources."
+msgstr "Sursele de flux <code>%1$s</code> importate cu succes."
+
+#: includes/admin-help.php:182
+msgid "Please enter a valid email address."
+msgstr "Te rog introdu o adresă email validă."
+
+#: includes/admin-help.php:174
+msgid "Please fill out all the fields in the form, including the <strong>%s</strong> field."
+msgstr "Te rog să completezi toate câmpurile din formular, inclusiv câmpul <strong>%s</strong>."
+
+#: includes/admin-help.php:144
+msgid "There was an error sending the form. Please use the <a href=\"%s\" target=\"_blank\">contact form on our site.</a>"
+msgstr "A fost o eroare la trimiterea formularului. Te rog folosește <a href=\"%s\" target=\"_blank\">formularul de contact de pe situl nostru.</a>"
+
+#: includes/admin-help.php:110
+msgid "Support Forums"
+msgstr "Forumuri pentru suport"
+
+#: includes/admin-help.php:97
+msgid "Send Message"
+msgstr "Trimite mesajul"
+
+#: includes/admin-help.php:92
+msgid "WordPress information"
+msgstr "Informație WordPress"
+
+#: includes/admin-help.php:89
+msgid "WP RSS Aggregator log file"
+msgstr "Fișier jurnal WP RSS Aggregator"
+
+#: includes/admin-help.php:86
+msgid "Attachments"
+msgstr "Atașamente"
+
+#: includes/admin-help.php:77
+msgid "Replies will be sent to this email address."
+msgstr "Răspunsurile vor fi trimise la această adresă de email."
+
+#: includes/admin-help.php:72
+msgid "From: "
+msgstr "De la:"
+
+#: includes/admin-help.php:65
+msgid "If you still can't find an answer to your query after reading the documentation and going through the FAQ, just fill out the support request form below. We'll be happy to help you out."
+msgstr "Dacă tot nu găsești un răspuns la întrebarea ta după citirea documentației și parcurgerea Întrebărilor frecvente, doar completează formularul de cerere suport de mai jos. Vom fi bucuroși să te ajutăm."
+
+#: includes/admin-help.php:64
+msgid "Email Support"
+msgstr "Suport prin email"
+
+#: includes/admin-help.php:19
+msgid "If after going through the documentation you still have questions, please take a look at the <a href=\"http://www.wprssaggregator.com/faq/\">FAQ page</a> on the site, we set this up purposely to answer the most commonly asked questions by our users."
+msgstr "Dacă după ce parcurgi documentația mai ai alte întrebări, te rog uită-te pe <a href=\"http://www.wprssaggregator.com/faq/\">pagina Întrebări frecvente </a> de pe sit, am realizat-o dinadins pentru a răspunde la cele mai frecvente întrebări adresate de către utilizatorii noștri."
+
+#: includes/admin-help.php:18
+msgid "Frequently Asked Questions (FAQ)"
+msgstr "Întrebări frecvente"
+
+#: includes/admin-help.php:14 includes/admin.php:112
+msgid "Documentation"
+msgstr "Documentație"
+
+#: includes/admin-help.php:13 includes/admin.php:44
+msgid "Help & Support"
+msgstr "Ajutor și suport"
+
+#: includes/admin-help-settings.php:110
+msgid "The format to use for the feed item dates, as a PHP date format."
+msgstr "Formatul de folosit pentru datele elementului de flux, ca format de date PHP."
+
+#: includes/admin-help-settings.php:108
+msgid "Enter the text that you want to show before the feed item date. A space is automatically added between this text and the date."
+msgstr "Introdu textul pe care vrei să-l arăți înainte de data elementului de flux. Se adaugă automat un spațiu între acest text și dată."
+
+#: includes/admin-help-settings.php:106
+msgid "Enable this to show the feed item's date."
+msgstr "Activează asta pentru a arăta data elementului de flux."
+
+#: includes/admin-help-settings.php:100
+msgid "Enable this option to link the feed source name to the RSS feed's source site."
+msgstr "Activează această opțiune pentru a lega numele sursei de flux la sursa de flux RSS a sitului."
+
+#: includes/admin-help-settings.php:98
+msgid "Enter the text that you want to show before the source name. A space is automatically added between this text and the feed source name."
+msgstr "Introdu textul pe care vrei să-l arăți înainte de numele sursei. Se adaugă automat un spațiu între acest text și numele sursei de flux."
+
+#: includes/admin-help-settings.php:96
+msgid "Enable this option to show the feed source name for each feed item."
+msgstr "Activează această opțiune pentru a arăta numele sursei de flux pentru fiecare element de flux."
+
+#: includes/admin-help-settings.php:85
+msgid "Choose how you want links to be opened. This applies to the feed item title and the source link."
+msgstr "Alege cum vrei să fie deschise legăturile. Aceasta se aplică pentru titlul elementului de flux și legătura sursei."
+
+#: includes/admin-help-settings.php:73
+msgid "For feed items from YouTube, Vimeo or Dailymotion, you can choose whether you want to have the items link to the original page link, or a link to the embedded video player only."
+msgstr "Pentru elementele de flux YouTube, Vimeo sau Dailymotion, poți alege fie să ai elementele legate la legătura paginii originale ori fie numai o legătură către playerul video înglobat."
+
+#: includes/admin-help-settings.php:71
+msgid "Check this box to show the author for each feed item, if it is available."
+msgstr "Bifează această casetă pentru a arăta autorul pentru fiecare element de flux, dacă el este disponibil."
+
+#: includes/admin-help-settings.php:64
+msgid "Check this box to make the feed item titles link to the original article."
+msgstr "Bifează această casetă pentru a face legătura titlurilor elementelor de flux cu articolul original."
+
+#: includes/admin-help-settings.php:58
+msgid "The maximum number of feed items in the custom feed."
+msgstr "Numărul maxim de elemente de flux în fluxul personalizat."
+
+#: includes/admin-editor.php:139
+msgid "Add shortcode"
+msgstr "Adaugă scurtcod"
+
+#: includes/admin-editor.php:131
+msgid "Ignore"
+msgstr "Ignoră"
+
+#: includes/admin-editor.php:130
+msgid "Feed Limit:"
+msgstr "Limită flux:"
+
+#: includes/admin-editor.php:124
+msgid "Choose the feed sources to exclude:"
+msgstr "Alege sursele de flux pentru a le exclude:"
+
+#: includes/admin-editor.php:122
+msgid "Exclude:"
+msgstr "Exclude:"
+
+#: includes/admin-editor.php:101
+msgid "Choose the feed source to display:"
+msgstr "Alege sursa de flux de afișat:"
+
+#: includes/admin-editor.php:99
+msgid "All feed sources"
+msgstr "Toate sursele de flux"
+
+#: includes/admin-editor.php:97 includes/custom-post-types.php:21
+#: includes/custom-post-types.php:24
+msgid "Feed Sources"
+msgstr "Surse de flux"
+
+#: includes/admin-editor.php:87
+msgid "Hold Ctrl or Mac Command key when clicking to select more than one feed source."
+msgstr "Apasă tasta Ctrl sau Command (pentru Mac) când dai clic pentru a selecta mai multe surse de flux."
+
+#: includes/admin-display.php:528
+msgid "Publish Feed"
+msgstr "Publică fluxul"
+
+#: includes/admin-display.php:359
+msgid "Delete feed items imported by this feed source"
+msgstr "Șterge elementele de flux importate din această sursă de flux"
+
+#: includes/admin-display.php:358
+msgid "Delete Items"
+msgstr "Șterge elemente"
+
+#: includes/admin-display.php:355
+msgid "Fetch Items"
+msgstr "Adu elemente"
+
+#: includes/admin-display.php:352
+msgid "View Items"
+msgstr "Vezi elemente"
+
+#: includes/admin-display.php:338
+msgid "ID: %1$s"
+msgstr "ID: %1$s"
+
+#: includes/admin-display.php:311
+msgid "Feed source submitted."
+msgstr "Sursă de flux trimisă."
+
+#: includes/admin-display.php:309 includes/admin-display.php:310
+msgid "Feed source saved."
+msgstr "Sursă de flux salvată."
+
+#: includes/admin-display.php:307 includes/admin-display.php:313
+msgid "Feed source updated."
+msgstr "Sursă de flux actualizată."
+
+#: includes/admin-display.php:306
+msgid "Custom field deleted."
+msgstr "Câmp personalizat șters."
+
+#: includes/admin-display.php:305
+msgid "Custom field updated."
+msgstr "Câmp personalizat actualizat."
+
+#: includes/admin-display.php:304
+msgid "Feed source updated. "
+msgstr "Sursă de flux actualizată."
+
+#: includes/admin-display.php:215
+msgid "Source"
+msgstr "Sursă"
+
+#: includes/admin-display.php:214
+msgid "Date published"
+msgstr "Dată publicată"
+
+#: includes/admin-display.php:213 includes/feed-blacklist.php:322
+msgid "Permalink"
+msgstr "Legătură permanentă"
+
+#: includes/admin-display.php:124 includes/admin-metaboxes.php:248
+msgid "Updating feed source"
+msgstr "Actualizez sursa de flux"
+
+#: includes/admin-display.php:109
+msgid "Last update imported: <code class=\"last-update-imported\">%1$d</code> items"
+msgstr "Ultima actualizare importată: <code class=\"last-update-imported\">%1$d</code> elemente"
+
+#: includes/admin-display.php:107 includes/feed-display.php:157
+msgid "%1$s ago"
+msgstr "Acum %1$s"
+
+#: includes/admin-display.php:106
+msgid "Last updated:"
+msgstr "Ultima actualizare:"
+
+#: includes/admin-display.php:98
+msgid "Next update:"
+msgstr "Următoarea actualizare:"
+
+#: includes/admin-display.php:91 includes/admin-heartbeat.php:50
+#: includes/admin-metaboxes.php:494
+msgid "Paused"
+msgstr "Întreruptă"
+
+#: includes/admin-display.php:89 includes/admin-heartbeat.php:53
+msgid "None"
+msgstr "Niciunul"
+
+#: includes/admin-display.php:48
+msgid "This feed source experienced an error during the last feed fetch or validation check. Re-check the feed source URL or check the Error Log in the Debugging page for more details."
+msgstr "Această sursă de flux a înregistrat o eroare în timpul ultimei aduceri de flux sau la verificarea validării. Verifică din nou URL-ul sursei de flux sau consultă jurnalul de erori din pagina de depanare pentru mai multe detalii."
+
+#: includes/admin-display.php:28
+msgid "Updates"
+msgstr "Actualizări"
+
+#: includes/admin-display.php:27
+msgid "State"
+msgstr "Județ/provincie"
+
+#: includes/admin-display.php:20 includes/admin-display.php:212
+msgid "Name"
+msgstr "Nume"
+
+#: includes/admin-debugging.php:281
+msgid "The plugin settings have been reset to default."
+msgstr "Setările modulului au fost resetate la valorile implicite."
+
+#: includes/admin-debugging.php:271
+msgid "The error log has been cleared."
+msgstr "Jurnalul de erori a fost golit."
+
+#: includes/admin-debugging.php:261
+msgid "Feeds deleted and are being re-imported in the background."
+msgstr "Fluxuri șterse și sunt reimportate în fundal."
+
+#: includes/admin-debugging.php:252
+msgid "Feeds are being updated in the background."
+msgstr "Fluxurile sunt actualizate în fundal."
+
+#: includes/admin-debugging.php:202 includes/admin.php:42
+msgid "Debugging"
+msgstr "Depanare"
+
+#: includes/admin-debugging.php:174
+msgid "Clear log"
+msgstr "Golește jurnalul"
+
+#: includes/admin-debugging.php:168
+msgid "Error Log"
+msgstr "Jurnal de erori"
+
+#: includes/admin-debugging.php:149
+msgid "<em><strong>Note:</strong> This cannot be undone. Once the settings have been reset, your old settings cannot be restored.</em>"
+msgstr "<em><strong>Notă:</strong> Acest lucru nu poate fi anulat. O dată ce setările au fost resetate, setările tale vechi nu pot fi recuperate.</em>"
+
+#: includes/admin-debugging.php:148
+msgid "Click the red button to reset the plugin settings to default."
+msgstr "Dă clic pe butonul roșu pentru a reseta setările modulul la valorile implicite."
+
+#: includes/admin-debugging.php:147 includes/admin-debugging.php:154
+msgid "Restore Default Settings"
+msgstr "Restaurează setările implicite"
+
+#: includes/admin-debugging.php:133
+msgid "Delete and Re-import all feeds"
+msgstr "Șterge și reimportă toate fluxurile"
+
+#: includes/admin-debugging.php:128
+msgid "<em><strong>Note:</strong> This is a server-intensive process and should only be used when instructed to by support staff.</em>"
+msgstr "<em><strong>Notă:</strong> Acesta este un proces de server intens și ar trebui să fie folosit numai când personalul de suport dă instrucțiuni.</em>"
+
+#: includes/admin-debugging.php:126
+msgid "Delete and Re-import Feeds"
+msgstr "Șterge și reimportă fluxurile"
+
+#: includes/admin-debugging.php:112
+msgid "Update all feeds"
+msgstr "Actualizează toate fluxurile"
+
+#: includes/admin-debugging.php:105
+msgid "Existing feed items will not be modified."
+msgstr "Elementele de flux existente nu vor fi modificate."
+
+#: includes/admin-debugging.php:103
+msgid "Update All Feeds Now"
+msgstr "Actualizează acum toate fluxurile"
+
+#: includes/admin-dashboard.php:25 includes/admin-dashboard.php:26
+msgid "Welcome to WP RSS Aggregator"
+msgstr "Bine ai venit la WP RSS Aggregator"
+
+#: includes/admin-ajax-notice.php:36 includes/admin-ajax-notice.php:491
+#: includes/licensing.php:343
+msgid "Dismiss this notification"
+msgstr "Respinge această notificare"
+
+#: includes/admin-ajax-notice.php:35
+msgid "page."
+msgstr "pagină."
+
+#: includes/admin-ajax-notice.php:35
+msgid "extensions"
+msgstr "extensii"
+
+#: includes/admin-addons.php:93
+msgid "Purchase & Install"
+msgstr "Cumpără și instalează"
+
+#: includes/admin-addons.php:91 includes/scripts.php:88
+msgid "Activate"
+msgstr "Activează"
+
+#: includes/admin-addons.php:89
+msgid "Installed"
+msgstr "Instalat"
+
+#: includes/admin-addons.php:71 includes/admin.php:43
+msgid "Add-Ons"
+msgstr "Suplimente"
+
+#: includes/admin-addons.php:58 includes/admin-welcome.php:108
+msgid "WordAi"
+msgstr "WordAi"
+
+#: includes/admin-addons.php:49 includes/admin-welcome.php:107
+msgid "Full Text RSS Feeds"
+msgstr "Fluxuri RSS cu text complet"
+
+#: includes/admin-addons.php:40 includes/admin-welcome.php:103
+msgid "Feed to Post"
+msgstr "Flux la articol"
+
+#: includes/admin-addons.php:31 includes/admin-welcome.php:106
+msgid "Keyword Filtering"
+msgstr "Filtrare cuvinte cheie"
+
+#: includes/admin-addons.php:22 includes/admin-welcome.php:105
+msgid "Categories"
+msgstr "Categorii"
+
+#: includes/admin-addons.php:13
+msgid "Excerpts & Thumbnails"
+msgstr "Rezumate și miniaturi"
+
+#: includes/OPML.php:42
+msgid "An error occurred: The file might not be a valid OPML file or is corrupt. "
+msgstr "A apărut o eroare: fișierul ar putea să nu fie un fișier OPML valid sau este stricat."

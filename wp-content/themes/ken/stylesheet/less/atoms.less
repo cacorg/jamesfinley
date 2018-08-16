@@ -1,0 +1,160 @@
+.font-weight-l   { font-weight: lighter; }
+.font-weight-n   { font-weight: normal; }
+.font-weight-b   { font-weight: bold; }
+.font-weight-100 { font-weight: 100; }
+.font-weight-200 { font-weight: 200; }
+.font-weight-300 { font-weight: 300; }
+.font-weight-400 { font-weight: 400; }
+.font-weight-500 { font-weight: 500; }
+.font-weight-600 { font-weight: 600; }
+.font-weight-700 { font-weight: 700; }
+.font-weight-800 { font-weight: 800; }
+.font-weight-900 { font-weight: 900; }
+
+.bold        { font-weight: bold; }
+.italic      { font-style: italic; }
+.uppercase   { text-transform: uppercase; }
+
+.text-left   { text-align: left; }
+.text-right  { text-align: right; }
+.text-center { text-align: center; }
+
+.letter-spacing-1 { letter-spacing: 1px; }
+.letter-spacing-2 { letter-spacing: 2px; }
+.letter-spacing-3 { letter-spacing: 3px; }
+
+.block  { display: block; }
+.inline-block { display: inline-block; }
+.flex   { display: flex }
+.table {
+  display: table;
+}
+.table-cell {
+  display: table-cell;
+}
+.flex-column  { flex-direction: column }
+.flex-wrap    { 
+    flex-flow: row; 
+    flex-wrap: wrap 
+}
+
+.flex-column  { flex-direction: column }
+.flex-wrap    { 
+    flex-flow: row; 
+    flex-wrap: wrap 
+}
+
+
+.flex-items-center   { align-items: center }
+.flex-items-baseline { align-items: baseline }
+.flex-items-start    { align-items: flex-start }
+.flex-items-end      { align-items: flex-end }
+.flex-items-stretch  { align-items: stretch; }
+
+.flex-self-center    { align-self: center }
+.flex-self-baseline  { align-self: baseline }
+.flex-self-start     { align-self: flex-start }
+.flex-self-end       { align-self: flex-end }
+.flex-self-stretch   { align-self: stretch; }
+
+.flex-justify  { justify-content: space-between }
+.flex-center  { justify-content: center; }
+
+.flex-auto  { flex: 1 1 auto }
+.flex-grow  { flex: 1 0 auto }
+.flex-none  { flex: none }
+
+.flex-first { order: -1 }
+.flex-last  { order: 99999 }
+
+
+.width-50 {width: 50px;}
+.width-full  { width:  100%; }
+.width-x2    { width:  200%; }
+
+.height-50 {height: 50px;}
+.height-full { height: 100%; }
+
+
+.clear:before, .clear:after { 
+    content: " "; 
+    display: table; 
+}
+.clear:after { clear: both; }
+
+
+.relative { position: relative; }
+.absolute { position: absolute; }
+.fixed    { position: fixed; }
+
+.z1 { z-index: 1; }
+.z2 { z-index: 2; }
+.z3 { z-index: 3; }
+.z4 { z-index: 4; }
+.z5 { z-index: 5; }
+.z999 { z-index: 999; }
+
+
+.pointer    { pointer-events: auto; }
+.no-pointer { pointer-events: none; }
+
+.overflow-auto   { overflow: auto; }
+.no-overflow     { overflow: hidden; }
+.no-overflow-x   { overflow-x: hidden; }
+.no-overflow-y   { overflow-y: hidden; }
+
+.backface    { backface-visibility: visible; }
+.no-backface { backface-visibility: hidden; }
+
+
+.perspective { transform: perspective(1000px); transform-style: preserve-3d;  }
+.origin-center { transform-origin: center; }
+
+.fold-back-horizontal { transform: translateX(-100%) rotateY(-180deg); }
+.fold-back-vertical   { transform: translateX(-100%) rotateX(-180deg); }
+
+.bezier-1 { transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1.000); }
+.IE .bezier-1 { transition: none; }
+
+
+/* 
+    Try not to get crazy here and kepp as little class names as possible.
+    However don't try to move this logic into contextual classes.
+    If you see values close to each other prefer this which was already defined.
+    Also idea of "px perfect" class names is not good - perfect solution would describe
+    levels that could be manipulated from here when needed. Binding to pixels makes it less
+    future proof, but this comes from underlying problems of procedural programming through out the product.
+*/
+.left-0 { left: 0px; }
+.left-5 { left: 5px; }
+.left-10 { left: 10px; }
+
+.right-0 { right: 0px; }
+.right-5 { right: 5px; }
+.right-10 { right: 10px; }
+
+.top-0 { top: 0px; }
+.top-5 { top: 5px; }
+.top-10 { top: 10px; }
+
+.bottom-0 { bottom: 0px; }
+.bottom-5 { bottom: 5px; }
+.bottom-10 { bottom: 10px; }
+
+.padding-10-pr { padding: 10%; }
+.padding-x-10-pr { padding-left: 10%; padding-right: 10%; }
+
+.padding-10   { padding: 10px; }
+.padding-x-10 { padding-left: 10px; padding-right: 10px; }
+.padding-y-10 { padding-top: 10px; padding-bottom: 10px; }
+.padding-20   { padding: 20px; }
+.padding-x-20 { padding-left: 20px; padding-right: 20px; }
+.padding-y-20 { padding-top: 20px; padding-bottom: 20px; }
+
+.margin-t-20 { margin-top: 20px; }
+
+.margin-r-10 { margin-top: 10px; }
+
+.is-hidden { display: none; visibility: hidden; }
+.is-visibility-hidden { visibility: hidden; }
+.margin-auto { margin: 0 auto; }
